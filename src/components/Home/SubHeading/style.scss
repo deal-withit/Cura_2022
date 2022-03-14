@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
+.lumi {
+  background: 50% 100% / 50% 50% no-repeat
+              radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 2rem;
+  font-family: "Source Sans Pro", sans-serif;
+  animation: reveal 3000ms ease-in-out forwards 200ms,
+             glow 4500ms linear infinite 2000ms;
+  
+   padding-bottom:5px !important;
+
+  @keyframes reveal {
+    80%{
+      letter-spacing: 8px;
+    }
+    100% {
+      background-size: 150% 150%;
+    }
+  }
+  @keyframes glow {
+    40% {
+      text-shadow: 0 0px 0px #fff;
+    }
+  }
+
+  @media  screen and (max-width: 480px) {
+    font-size: 1.7rem;
+  }
+}  
