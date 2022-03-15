@@ -126,7 +126,7 @@ const [anchorEl, setAnchorEl] = React.useState(null);
             </NavItem>
 
             <NavItem>
-               <Link to="/comingsoon"
+               <Link to="/speakers"
                 style={{textDecoration:'none'}}>
                   <NavLinks 
                      onClick={() => { handleClose(); handleClicker();}}
@@ -141,7 +141,7 @@ const [anchorEl, setAnchorEl] = React.useState(null);
               <Link to="/teams" style={{textDecoration:'none'}}><NavLinks onClick={handleClicker}>Teams</NavLinks></Link>
             </NavItem>
             <NavItem>
-             <Link to="/comingsoon" style={{textDecoration:'none'}}><NavLinks onClick={handleClicker}>Partners</NavLinks></Link>
+             <Link to="/partners" style={{textDecoration:'none'}}><NavLinks onClick={handleClicker}>Partners</NavLinks></Link>
             </NavItem>
             {/* <NavItem>
             <Link to="/comingsoon" style={{textDecoration:'none'}}><NavLinks onClick={handleClicker}>Testimonials</NavLinks></Link>
