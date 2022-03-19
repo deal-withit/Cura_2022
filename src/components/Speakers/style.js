@@ -12,6 +12,11 @@ const useStyles = makeStyles({
     backgroundRepeat: "no-repeat",
     backgroundAttachment: "fixed",
   },
+  headdiv:{
+    width:"100%",
+    border:"1px solid white",
+    
+  },
   head: {
     display: "flex",
     justifyContent: "center",

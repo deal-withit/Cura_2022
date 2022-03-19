@@ -10,8 +10,8 @@ function Cura() {
         Powering Your Curiosity!
       </div>
       <div style={{fontFamily:'Dongle', fontSize:'36px'}}>
-        25th - 26th March
-        
+        25th - 26th March<br></br>
+        (Online Event)
       </div>
       <button className={classes.registerbutton}>
           <a href='https://register.curanitw.org/' className={classes.registerlink} target='_blank'>
