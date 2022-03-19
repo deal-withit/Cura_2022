@@ -20,6 +20,7 @@ import shubhabratoSarkar from '../../resources/SHUBHABRATO SARKAR.jpg'
 import vilasAdmane from '../../resources/vilas-admane.jpeg'
 import briddhiJaiswal from '../../resources/Briddhi_Jaiswal.jpg'
 import kundanKumar from '../../resources/KundanKumar.jpg'
+import AmritPandey from '../../resources/Amrit_Pandey.jpeg'
 
 function Contact() {
     const classes = useStyles()
@@ -498,6 +499,35 @@ function Contact() {
                   >
                     <MailIcon/>
                   </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={classes.imgdivparent}>
+        <div className={classes.cardparent}>
+            <div class="card">
+              <div class="imgBx">
+                <img src={AmritPandey} alt="Amrit Pandey" class="image" />
+              </div>
+              <div class="details">
+                <h2>Amrit Pandey</h2>
+                <p>Web Design</p>
+                <div className='social_link'>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.linkedin.com/in/okape/"
+                >
+                  <LinkedInIcon />
+                </a>
+                <a 
+                  target="_blank"
+                  href="mailto: apmc20103@student.nitw.ac.in"
+                  rel="noreferrer"
+                >
+                  <MailIcon/>
+                </a>
                 </div>
               </div>
             </div>
