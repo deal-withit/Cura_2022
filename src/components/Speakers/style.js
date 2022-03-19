@@ -14,25 +14,60 @@ const useStyles = makeStyles({
   },
   headdiv:{
     width:"100%",
-    border:"1px solid white",
+    //border:"1px solid white",
     
   },
   head: {
     display: "flex",
     justifyContent: "center",
     alignItems: "centere",
-    fontWeight: "bold",
-    padding: "50px",
-    fontSize: "5vw",
-    color: "white",
-    // border:'2px solid red',
+    flexDirection:'column',
+    padding: "5px",
+    
+    //border:'2px solid red',
     margin: "100px 0px 20px 0px",
     boxShadow:
       "rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px",
+    
+  },
+  innerhead:{
+    //border:'1px solid white',
+    fontWeight: "bold",
+    fontSize: "5vw",
+    color: "white",
+    display:'flex',
+    justifyContent:'center',
+    alignItems:'center',
     background: "-webkit-linear-gradient(#aaa,#fff)",
     "-webkit-background-clip": "text",
     "-webkit-text-fill-color": "transparent",
   },
+  bottomline:{
+    color:'white',
+    padding:'10px',
+    textAlign:'center',
+    fontSize:'1.5vw'
+  },
+  registerbutton:{
+    backgroundColor:'#22C4F0',
+    outline:'none',
+    border:'none',
+    padding:'10px 30px 10px 30px',
+    fontSize:'22px',
+    borderRadius:'10px',
+    width:'auto',
+    margin:'auto',
+    cursor:'pointer',
+    marginBottom:'20px',
+    '&:hover':{
+        backgroundColor:'cyan'
+    }
+},
+registerlink:{
+    textDecoration:'none',
+    color:'black',
+},
+
   speakers:{
     width:'100%',
     padding:'10px',
@@ -78,9 +113,15 @@ const useStyles = makeStyles({
 
   
 
+  
+
   "@media(max-width:780px)": {
-     head:{
-       fontSize:'8vw'
+     innerhead:{
+       fontSize:'12vw'
+     },
+     bottomline:{
+       fontSize:'3.5vw',
+       textAlign:'justify'
      },
      speakersdiv:{
        margin:'5px'

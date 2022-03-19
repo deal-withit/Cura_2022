@@ -17,7 +17,7 @@ function Cura() {
           <a href='https://register.curanitw.org/' className={classes.registerlink} target='_blank'>
             Register
           </a>
-        </button>
+      </button>
     </>
   )
 }

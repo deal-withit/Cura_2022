@@ -11,9 +11,22 @@ function Contact() {
   const classes = useStyles();
   return (
     <div className={classes.centerdiv}>
-      <Typography variant="h2" className={classes.head}>
-        SPEAKERS
-      </Typography>
+      <div className={classes.head}>
+        <Typography variant="h2" className={classes.innerhead}>
+          SPEAKERS
+        </Typography>
+        <Typography variant="h6" className={classes.bottomline}>
+        All registered participants for both events and workshops will have access to listen to the keynote speakers.
+        They would not only talk about some contemporary
+        issues in the areas of management and business, but also will generate a lot of inspiration
+        </Typography>
+        <button className={classes.registerbutton}>
+          <a href='https://register.curanitw.org/' className={classes.registerlink} target='_blank'>
+            Register
+          </a>
+        </button>
+      </div>
+     
       <div className={classes.speakers}>
         
         <div className={classes.speakersdiv}>

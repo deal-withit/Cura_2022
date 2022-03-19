@@ -9,9 +9,21 @@ function Contact() {
   const classes = useStyles();
   return (
     <div className={classes.centerdiv}>
-      <Typography variant="h2" className={classes.head}>
-        Workshops
-      </Typography>
+      <div className={classes.head}>
+        <Typography variant="h2" className={classes.innerhead}>
+          WORKSHOPS
+        </Typography>
+        <Typography variant="h6" className={classes.bottomline}>
+          Workshops are designed to enlighten the participants in some of the latest areas of business. 
+          This edition of cura have come up with two workshops. One is to enrich you with the financial 
+          literacy for investment and the second is to share certain advancements in the area of digital marketing.
+        </Typography>
+        <button className={classes.registerbutton}>
+          <a href='https://register.curanitw.org/' className={classes.registerlink} target='_blank'>
+            Register For Workshops
+          </a>
+        </button>
+      </div>
       <div className={classes.sections}>
         <div className={classes.details}>
           <Typography variant="h2" className={classes.sectionhead}>

@@ -17,9 +17,23 @@ function Competitions(){
   const classes = useStyles()
   return (
     <div className={classes.centerdiv}>
-      <Typography variant="h2" className={classes.head}>
-        EVENTS
-      </Typography>
+      <div className={classes.head}>
+        <Typography variant="h2" className={classes.innerhead}>
+          EVENTS
+        </Typography>
+        <Typography variant="h6" className={classes.bottomline}>
+          As this edition of cura is happening online using Zoom/Google meet, we have come up with 
+          some of the interesting events that can be hosted online. The events are not only designed 
+          to enrich your knowledge in the areas of management but also would surely give you great experience.
+         All the events will happen online and we have scheduled them in such a way that we wish most of our 
+         participants participate in atleast three events. 
+        </Typography>
+        <button className={classes.registerbutton}>
+          <a href='https://register.curanitw.org/' className={classes.registerlink} target='_blank'>
+            Register For Events
+          </a>
+        </button>
+      </div>
       <div className={classes.sections}>
         <div className={classes.details}>
           <Typography variant="h2" className={classes.sectionhead}>
