@@ -15,7 +15,7 @@ function Contact() {
         </Typography>
         <Typography variant="h6" className={classes.bottomline}>
           Workshops are designed to enlighten the participants in some of the latest areas of business. 
-          This edition of cura have come up with two workshops. One is to enrich you with the financial 
+          This edition of Cura have come up with two workshops. One is to enrich you with the financial 
           literacy for investment and the second is to share certain advancements in the area of digital marketing.
         </Typography>
         <button className={classes.registerbutton}>
@@ -27,7 +27,7 @@ function Contact() {
       <div className={classes.sections}>
         <div className={classes.details}>
           <Typography variant="h2" className={classes.sectionhead}>
-            Finance Workshop
+            Financial Literacy on Investment
           </Typography>
           <p className={classes.sectiondetails}>
             One of the most challenging yet interesting topic 'Finance' has
@@ -50,6 +50,18 @@ function Contact() {
           <div className={classes.collapsible}>
             <Collapsible trigger="WorkShop Details">
               <div className={classes.collapseDetails}>
+              <h3 style={{textDecoration:'underline'}}>Financial Literacy on Investment Workshop Curriculum: </h3>
+                <ul style={{padding:'20px'}}>
+                  <li>Module 1: Share Market</li>
+                  <li>Module 2: Derivative Market (FNO)</li>
+                  <li>Module 3: Algorithm/HFT Training </li>
+                  <li>Module 4: How banking stock behave in real market and risk management</li>
+                  <li>Module 5: How to Minimize Losses (RISK MANAGEMENT)</li>
+                </ul>
+                <h4>All the Participants will be furnished with e-certificates.</h4>
+                <h3 style={{marginTop:'20px'}}>
+                  Refer to <a  target="_blank" style={{color:'white'}} href="https://innovatorsandyou.com/innovator/index.php">Innovatorsandyou.com</a> for more details.  
+                 </h3>
                 <h3 style={{marginTop:'10px'}}>Contact Details</h3>
                 <p>Email : collaboaration@innovatorsandyou.com</p>
                 <h3>Coordinators</h3>
@@ -111,7 +123,7 @@ function Contact() {
                   <li>Module 9: Smart Graphic Designing Tools</li>
                   <li>Module 10: Freelancing through Digital Marketing</li>
                 </ul>
-               
+                <h4>All the Participants will be furnished with e-certificates.</h4>
               </div> 
               
             </Collapsible>

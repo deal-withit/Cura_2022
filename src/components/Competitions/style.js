@@ -68,12 +68,23 @@ registerlink:{
     // border: "1px solid yellow",
     margin: "20px",
     display: "flex",
+    justifyContent:'center',
+    alignItems:'center',
+    flexDirection:'column',
     color: "white",
     marginBottom: "50px",
     paddingBottom: "20px",
     height:'auto',
+    paddingLeft:'20px',
+    paddingRight:'20px',
     boxShadow:
       "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
+  },
+
+  topsection:{
+    display:'flex',
+    justifyContent:'center',
+    alignItems:'center'
   },
 
   
@@ -83,9 +94,17 @@ registerlink:{
     color: "white",
     marginBottom: "50px",
     paddingBottom: "20px",
+    flexDirection:'column',
+    paddingLeft:'20px',
+    paddingRight:'20px',
     // border: "1px solid red",
     boxShadow:
       "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
+  },
+  innersection2:{
+    display:'flex',
+    justifyContent:'center',
+    alignItems:'center'
   },
 
   details: {
@@ -148,7 +167,8 @@ registerlink:{
     cursor:'auto',
     padding:'20px',
     color:'white',
-    borderTop:'1px solid white'
+    borderTop:'1px solid white',
+    paddingLeft:'100px'
   },
   eventsubhead:{
     margin:'10px',
@@ -175,11 +195,21 @@ registerlink:{
     },
     sections: {
       flexDirection: "column",
-      marginTop:'-50px'
+      marginTop:'-50px',
+      paddingLeft:'0px',
+      paddingRight:'0px'
+    },
+    topsection:{
+      flexDirection:'column'
     },
     sections2: {
-      flexDirection: "column-reverse",
-      marginTop:'-50px'
+      flexDirection: "column",
+      marginTop:'-50px',
+      paddingLeft:'0px',
+      paddingRight:'0px'
+    },
+    innersection2:{
+      flexDirection:'column-reverse'
     },
     details: {
       width: "100%",
@@ -203,7 +233,8 @@ registerlink:{
       padding: "15px",
     },
     collapseDetails:{
-      fontSize:'3vw'
+      fontSize:'3vw',
+      paddingLeft:'10px'
     },
     
   },
