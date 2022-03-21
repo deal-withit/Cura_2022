@@ -17,6 +17,7 @@ function Contact() {
           Workshops are designed to enlighten the participants in some of the latest areas of business. 
           This edition of Cura have come up with two workshops. One is to enrich you with the financial 
           literacy for investment and the second is to share certain advancements in the area of digital marketing.
+          (You will receive an email to confirm your choice of workshop after you register.)
         </Typography>
         <button className={classes.registerbutton}>
           <a href='https://register.curanitw.org/' className={classes.registerlink} target='_blank'>
