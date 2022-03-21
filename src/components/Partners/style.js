@@ -33,27 +33,31 @@ const useStyles = makeStyles({
     padding:'20px',
     display: 'flex',
     justifyContent:'space-evenly',
-    //border:'1px solid red'
+    alignItems:'center'
+    //border:'1px solid cyan'
   },
   imgdiv:{
     width:'auto',
-    height:'120px',
-    // border:'1px solid red',
+    height:'auto',
+    //border:'1px solid white',
     display:'flex',
     flexDirection:'column',
     justifyAlign:'center',
     alignItems:'center',
     color:'white',
+    boxShadow: 'rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset'
 
   },
   img:{
-    width:'100%',
-    height:'100%',
+    width:'80%',
+    height:'auto',
     objectFit:'cover',
-    margin:'10px'
+    margin:'10px',
+    //border:'1px solid white',
+    
   },
 
-  "@media(max-width:920px)": {
+  "@media(max-width:1150px)": {
      fulldiv:{
        flexDirection:'column',
        margin:'10px',

@@ -29,7 +29,13 @@ function Contact() {
           <Typography variant='h6'>Banking Sponsor</Typography>
         </div>
         <div className={classes.imgdiv}>
-          <img alt="coupon partner" src={couponPartner} className={classes.img}></img>
+          <a href="https://zoutons.com/" target="_blank" rel="noreferrer" style={{
+            display:'flex',
+            justifyContent:'center',
+            alignItems:'center'
+          }}>
+           <img alt="coupon partner" src={couponPartner} className={classes.img}></img>
+          </a>
           <Typography variant='h6'>Coupon Partner</Typography>
         </div>
         <div className={classes.imgdiv}>
@@ -40,12 +46,22 @@ function Contact() {
       </div>
 
       <div className={classes.fulldiv}>
+      
         <div className={classes.imgdiv}>
-          <img alt="educationPartner" src={educationPartner} className={classes.img}></img>
+          <a href="https://prepp.in/" target="_blank" rel="noreferrer" style={{
+            display:'flex',
+            justifyContent:'center',
+            alignItems:'center' 
+          }}>
+             <img alt="educationPartner" src={educationPartner} className={classes.img}></img>
+          </a>
           <Typography variant='h6'>Education Partner</Typography>
+          
         </div>
         <div className={classes.imgdiv}>
-          <img alt="eLearningPlatform" src={eLearningPlatform} className={classes.img}></img>
+          
+           <img alt="eLearningPlatform" src={eLearningPlatform} className={classes.img}></img>
+        
           <Typography variant='h6'>eLearning Platform</Typography>
         </div>
         <div className={classes.imgdiv}>
@@ -64,7 +80,13 @@ function Contact() {
           <Typography variant='h6'>News Partner</Typography>
         </div>
         <div className={classes.imgdiv}>
-          <img alt="onlineMediaPartner" src={onlineMediaPartner} className={classes.img}></img>
+          <a href="https://collegedunia.com/" target="_blank" rel="noreferrer" style={{
+            display:'flex',
+            justifyContent:'center',
+            alignItems:'center'
+          }}>
+           <img alt="onlineMediaPartner" src={onlineMediaPartner} className={classes.img}></img>
+          </a>
           <Typography variant='h6'>Online Media Partner</Typography>
         </div>
       </div>
