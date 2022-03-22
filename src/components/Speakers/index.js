@@ -29,6 +29,22 @@ function Contact() {
       </div>
      
       <div className={classes.speakers}>
+
+      <div className={classes.speakersdiv}>
+          <div className={classes.speakerimgdiv}>
+            <img src={naveenLakkur} alt="Naveen Lakkur" className={classes.speakerimg}></img>
+          </div>
+          <div className={classes.speakerdetails}>
+            <Typography variant='h4' className={classes.speakername}>Naveen Lakkur</Typography>
+            <Typography variant='h5' className={classes.speakerdetail}>Chief Innovation Coach at Institute of Inspiring Innovation</Typography>
+            <Typography variant='h5' className={classes.speakerdetail}>
+              LinkedIn Profile : <a href="https://www.linkedin.com/in/naveenlakkur/"
+               target="_blank"
+               style={{textDecoration:'none',color:'white'}}
+               >Naveen Lakkur</a> 
+            </Typography>
+          </div>
+        </div>
         
         <div className={classes.speakersdiv}>
           <div className={classes.speakerimgdiv}>
@@ -114,21 +130,7 @@ function Contact() {
           </div>
         </div>
 
-        <div className={classes.speakersdiv}>
-          <div className={classes.speakerimgdiv}>
-            <img src={naveenLakkur} alt="Naveen Lakkur" className={classes.speakerimg}></img>
-          </div>
-          <div className={classes.speakerdetails}>
-            <Typography variant='h4' className={classes.speakername}>Naveen Lakkur</Typography>
-            <Typography variant='h5' className={classes.speakerdetail}>Chief Innovation Coach at Institute of Inspiring Innovation</Typography>
-            <Typography variant='h5' className={classes.speakerdetail}>
-              LinkedIn Profile : <a href="https://www.linkedin.com/in/naveenlakkur/"
-               target="_blank"
-               style={{textDecoration:'none',color:'white'}}
-               >Naveen Lakkur</a> 
-            </Typography>
-          </div>
-        </div>
+       
 
       </div>
     </div>
