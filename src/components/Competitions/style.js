@@ -117,7 +117,7 @@ registerlink:{
     alignItems: "stretch",
     justifyContent: "center",
     // border: "1px solid blue",
-    marginTop:'80px !important' 
+    marginTop:'30px !important' 
   },
 
   details2: {
@@ -131,7 +131,7 @@ registerlink:{
     alignItems: "center",
     justifyContent: "center",
     // border: "1px solid white",
-    marginTop:'80px !important' 
+    //marginTop:'80px !important' 
   },
 
   sectionhead: {

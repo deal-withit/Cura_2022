@@ -50,6 +50,18 @@ function Competitions(){
               challenge. Play it hard, be one of the top 3 champions and win the
               most exciting prizes.
             </p>
+
+            <p className={classes.sectiondetails}>
+            “If your actions inspire others to dream more, 
+            learn more, do more, and become more, you are a leader.” - John Quincy Adams
+            </p>
+            <p className={classes.sectiondetails}>
+              A potential leader can inspire their team and the world at large through their words and more
+              importantly through their actions. CURA presents ‘HRiday’ as a part of SOM’s annual management fest – CURA22.
+              Get a virtual experience of being a high potential leader and empower subordinates by setting goals 
+              and making rational decisions along with enhancing fundamental business qualities by participating in HRiday.
+              Gives a deep theoretical knowledge of the HR domain and helps increase the industrial lingo database.
+            </p>
             
           </div>
 
@@ -67,17 +79,7 @@ function Competitions(){
             <Collapsible trigger="Event Details">
               <div className={classes.collapseDetails}>
                 <h1 style={{fontFamily:'Dongle'}}>Stages and Timelines</h1>
-                <p>
-                “If your actions inspire others to dream more, 
-                learn more, do more, and become more, you are a leader.” - John Quincy Adams
-                </p>
-                <p>
-                 A potential leader can inspire their team and the world at large through their words and more
-                 importantly through their actions. CURA presents ‘HRiday’ as a part of SOM’s annual management fest – CURA22.
-                  Get a virtual experience of being a high potential leader and empower subordinates by setting goals 
-                  and making rational decisions along with enhancing fundamental business qualities by participating in HRiday.
-                  Gives a deep theoretical knowledge of the HR domain and helps increase the industrial lingo database.
-                </p>
+                
                 <h3 style={{marginTop:'20px'}}>Participants: In groups(Max 2 members) / single participation(Both Allowed)</h3>
                 <h3 style={{marginTop:'20px'}}>Round-1 :  25th March 2022 10:00 AM</h3>
                 <li>
@@ -151,6 +153,13 @@ function Competitions(){
               General Knowledge. Show your mettle in this event and surely no one
               can stop you from being a Hazarpati.
             </p>
+
+            <p className={classes.sectiondetails}>
+             “Quizzards” will consist of two rounds. The first round will challenge the participants through
+             an exciting quiz, testing them on various aspects of Management concepts and business current affairs.
+              The teams who ace the quiz will qualify for the second round,
+             where they will get the chance to showcase their in depth knowledge on the above mentioned topics.
+            </p>
             
           </div>
         </div>
@@ -163,12 +172,7 @@ function Competitions(){
                quizzes under CURA’ 22 – Powering your Curiosity,
                a momentous management event organized by the students of School of Management.
               </p>
-              <p style={{marginTop:'10px'}}>
-              “Quizzards” will consist of two rounds. The first round will challenge the participants through an 
-              exciting quiz, testing them on various aspects of Management concepts and business current affairs. 
-              The teams who ace the quiz will qualify for the second round,
-               where they will get the chance to showcase their in depth knowledge on the above mentioned topics.
-              </p>
+              
               <h3 style={{marginTop:'20px'}}>Participants: In Groups (Minimum 2) </h3>
               <h3 style={{marginTop:'20px'}}>Rules</h3>
                 <h4>Two rounds will be conducted.</h4>
@@ -340,6 +344,15 @@ function Competitions(){
             give the answers for the questions around you.
           </p>
 
+          <p className={classes.sectiondetails}>
+           We have come up with an event called “Market Yourself – A Marketing & Leadership event”,
+           where you get a chance to compete with aspirants like you from various prestigious B-Schools
+           across the country who wish to develop and display their multifaceted skills. Gear up to show
+           your marketing skills, develop innovative strategies to make unforeseen situations into an opportunity.
+           Unleash the creative and innovative leader within you by analyzing the need of the hour problems and to
+           make the best marketing plan.
+          </p>
+
 
         </div>
         <div className={classes.imgdiv}>
@@ -357,17 +370,7 @@ function Competitions(){
             <Collapsible trigger="Event Details">
               <div className={classes.collapseDetails}>
               <h1 style={{fontFamily:'Dongle'}}>Stages and Timelines</h1>
-              <ul>
-                  <li>
-                    A Marketing  &amp; Leadership event, where you get a chance to compete with aspirants like you from various  
-                    prestigious B-Schools and Colleges across the country who wish to develop and display their  multifaceted skills. 
-                  </li>
-                  <li>
-                    Gear up to show your marketing skills, develop innovative strategies to make your  
-                    foreseen situation or crisis into an opportunity. Unleash the creative and innovative
-                    leader within you by analysing the need of the hour problems and to make the best marketing plan.
-                  </li>
-                </ul>
+             
 
                 <h3 style={{marginTop:'20px'}}>Participants: Minimum 2 ans Maximum 3 Per Team.</h3>
                 <h3 style={{marginTop:'20px'}}>Rounds</h3>
@@ -525,10 +528,11 @@ function Competitions(){
             Finwiz
           </Typography>
           <p className={classes.sectiondetails}>
-            Want to start a company? Then you should be aware of the
-            calculations of ERP and budgeting for it. Imagine your own company
-            and perform calculations for it, and the most efficient team with
-            the more viable numbers shall be the star of the day.
+          This event will be immensely helpful for students aspiring to develop their careers in the
+          corporate world. A solid base of finance and operations will help them grasp a better
+          understanding of business processes happening in an organization and how cost is calculated.
+          Financial knowledge is also beneficial to help an organization assess which projects to invest in
+          and which to reject.
           </p>
 
         </div>
@@ -647,6 +651,14 @@ function Competitions(){
             about your innovative ideas and make this world a better place.
           </p>
 
+          <p className={classes.sectiondetails}>
+          Researcher’s Diary is a team event where each team will have to choose a topic of their choice. 
+          The topic has to be from the domain of business or management. Then they will have to write briefly 
+          about that topic and submit it to the panel of judges. It will then be evaluated and then the shortlisted
+           teams will be given an 
+          opportunity to appear in an online interview where they will be asked questions based on the writing submitted.
+          </p>
+
           
         </div>
         </div>
@@ -654,13 +666,6 @@ function Competitions(){
             <Collapsible trigger="Event Details">
               <div className={classes.collapseDetails}>
               <h1 style={{fontFamily:'Dongle'}}>Stages and Timelines</h1>
-              <p>
-               Researcher’s Diary is a team event where each teams will have to choose a topic of their choice.
-               The topic has to be from the domain of business or management. Then they will have to write briefly 
-               about that topic and submit it to the panel of judges. It will then be evaluated and then the shortlisted
-               teams will be given an opportunity 
-               to appear in an online interview where they will be asked questions based on the writing submitted.
-              </p>
               <li>The entries can be submitted from 8:00 AM, 16/03/2022  till 8:00 PM, 21/03/2022.
                  All the entries will then be evaluated by our panel of judges and a shortlist will be prepared. 
                  The shortlisted team members will be receiving an email after the evaluation is completed. 

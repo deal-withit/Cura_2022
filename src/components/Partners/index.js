@@ -42,7 +42,6 @@ function Contact() {
           <img alt="creditCardPartner" src={creditCardPartner} className={classes.img}></img>
           <Typography variant='h6'>Credit Card Partner</Typography>
         </div>
-        
       </div>
 
       <div className={classes.fulldiv}>
