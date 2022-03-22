@@ -28,12 +28,43 @@ const useStyles = makeStyles({
     "-webkit-background-clip": "text",
     "-webkit-text-fill-color": "transparent",
   },
+  outerdiv:{
+    display:'flex',
+    justifyContent:'center',
+    flexDirection:'column',
+    color:'white',
+    //border:'1px solid red',
+    padding:'20px',
+    fontWeight:'bold',
+    
+  },
+  partnerName:{
+    fontSize:'4vw',
+    fontWeight:'bold',
+    fontFamily:'Dongle',
+  },
   fulldiv:{
     margin:'30px',
-    padding:'20px',
+    padding:'5px',
     display: 'flex',
     justifyContent:'space-evenly',
-    alignItems:'center'
+    alignItems:'center',
+    
+    //border:'1px solid cyan'
+  },
+  fulldiv2:{
+    padding:'15px',
+    display: 'flex',
+    justifyContent:'space-evenly',
+    alignItems:'center',
+    borderTop:'1px solid white'
+    //border:'1px solid cyan'
+  },
+  fulldiv3:{
+    padding:'15px',
+    display: 'flex',
+    justifyContent:'space-evenly',
+    alignItems:'center',
     //border:'1px solid cyan'
   },
   imgdiv:{
@@ -45,8 +76,8 @@ const useStyles = makeStyles({
     justifyAlign:'center',
     alignItems:'center',
     color:'white',
-    boxShadow: 'rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset'
-
+    boxShadow: 'rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset',
+    padding:'10px'
   },
   img:{
     width:'80%',
@@ -65,12 +96,30 @@ const useStyles = makeStyles({
        justifyContent:'center',
        alignItems:'center'
      },
+     fulldiv2:{
+      flexDirection:'column',
+      margin:'10px',
+      padding:'10px',
+      justifyContent:'center',
+      alignItems:'center'
+    },
+    fulldiv3:{
+      flexDirection:'column',
+      margin:'10px',
+      padding:'10px',
+      justifyContent:'center',
+      alignItems:'center'
+    },
+
      head:{
       fontSize:'8vw'
     },
      imgdiv:{
        margin:'20px',
        padding:'10px'
+     },
+     partnerName:{
+       fontSize:'9vw'
      }
   },
 });

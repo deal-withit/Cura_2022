@@ -12,10 +12,13 @@ import mediaPartner from '../../resources/Partners/mediaPartner.png'
 import newsPartner from '../../resources/Partners/newsPartner.png'
 import onlineMediaPartner from '../../resources/Partners/onlineMediaPartner.png'
 import publicityPartner from '../../resources/Partners/publicityPartner.png'
-import radioPartner from '../../resources/Partners/radioPartner.png'
+import nitwaa from '../../resources/Partners/nitwaa.png'
 import realEstatePartner from '../../resources/Partners/realEstatePartner.png'
 import workshopPartner from '../../resources/Partners/workshopPartner.png'
-
+import talerang from '../../resources/Partners/talerang.png'
+import pagalguy from '../../resources/Partners/pagalguy.png'
+import innovators from '../../resources/Partners/innovators.png'
+import finlatics from '../../resources/Partners/finlatics.png'
 function Contact() {
   const classes = useStyles();
   return (
@@ -24,11 +27,43 @@ function Contact() {
         PARTNERS
       </Typography>
       <div className={classes.fulldiv}>
+
         <div className={classes.imgdiv}>
+          <a href="https://www.nitwaa.in/" target="_blank" rel="noreferrer" style={{
+            display:'flex',
+            justifyContent:'center',
+            alignItems:'center'
+          }}>
+          <img alt="alumniPartner" src={nitwaa} className={classes.img}></img>
+          </a>
+          <Typography variant='h6'>Alumni Partner</Typography>
+        </div>
+        <div className={classes.imgdiv}>
+        <a href="https://www.onlinesbi.com/" target="_blank" rel="noreferrer" style={{
+            display:'flex',
+            justifyContent:'center',
+            alignItems:'center'
+          }}>
           <img alt="bankingSponsor SBI" src={bankingSponsor} className={classes.img}></img>
+          </a>
           <Typography variant='h6'>Banking Sponsor</Typography>
         </div>
         <div className={classes.imgdiv}>
+         <a href="https://www.icicibank.com/" target="_blank" rel="noreferrer" style={{
+            display:'flex',
+            justifyContent:'center',
+            alignItems:'center'
+          }}>
+          <img alt="creditCardPartner" src={creditCardPartner} className={classes.img}></img>
+          </a>
+          <Typography variant='h6'>Credit Card Partner</Typography>
+        </div>
+        
+        
+      </div>
+
+      <div className={classes.fulldiv}>
+      <div className={classes.imgdiv}>
           <a href="https://zoutons.com/" target="_blank" rel="noreferrer" style={{
             display:'flex',
             justifyContent:'center',
@@ -38,14 +73,6 @@ function Contact() {
           </a>
           <Typography variant='h6'>Coupon Partner</Typography>
         </div>
-        <div className={classes.imgdiv}>
-          <img alt="creditCardPartner" src={creditCardPartner} className={classes.img}></img>
-          <Typography variant='h6'>Credit Card Partner</Typography>
-        </div>
-      </div>
-
-      <div className={classes.fulldiv}>
-      
         <div className={classes.imgdiv}>
           <a href="https://prepp.in/" target="_blank" rel="noreferrer" style={{
             display:'flex',
@@ -58,25 +85,70 @@ function Contact() {
           
         </div>
         <div className={classes.imgdiv}>
-          
+        <a href="https://www.unschool.in/" target="_blank" rel="noreferrer" style={{
+            display:'flex',
+            justifyContent:'center',
+            alignItems:'center'
+          }}>
            <img alt="eLearningPlatform" src={eLearningPlatform} className={classes.img}></img>
-        
+          </a>
           <Typography variant='h6'>eLearning Platform</Typography>
         </div>
-        <div className={classes.imgdiv}>
-          <img alt="eventPartner" src={eventPartner} className={classes.img}></img>
-          <Typography variant='h6'>Event Partner</Typography>
-        </div>
+        
       </div>
 
-      <div className={classes.fulldiv}>
+      <div className={classes.outerdiv}>
+        <Typography variant='h5' className={classes.partnerName}>Event Partners</Typography>
+       <div className={classes.fulldiv2}  >
         <div className={classes.imgdiv}>
+          <img alt="eventPartner" src={eventPartner} className={classes.img}></img>
+          {/* <Typography variant='h6'>Event Partner</Typography> */}
+        </div>
+        <div className={classes.imgdiv}>
+          <img alt="realEstatePartner" src={talerang} className={classes.img}></img>
+          {/* <Typography variant='h6'>Real Estate Partner</Typography> */}
+        </div>
+        <div className={classes.imgdiv}>
+          <img alt="realEstatePartner" src={finlatics} className={classes.img}></img>
+          {/* <Typography variant='h6'>Real Estate Partner</Typography> */}
+        </div>
+        {/* <div className={classes.imgdiv}>
           <img alt="mediaPartner" src={mediaPartner} className={classes.img}></img>
           <Typography variant='h6'>Media Partner</Typography>
+        </div> */}
+        {/* <div className={classes.imgdiv}>
+          <img alt="newsPartner" src={newsPartner} className={classes.img}></img>
+          <Typography variant='h6'>News Partner</Typography>
+        </div> */}
+        {/* <div className={classes.imgdiv}>
+          <a href="https://collegedunia.com/" target="_blank" rel="noreferrer" style={{
+            display:'flex',
+            justifyContent:'center',
+            alignItems:'center'
+          }}>
+           <img alt="onlineMediaPartner" src={onlineMediaPartner} className={classes.img}></img>
+          </a>
+          <Typography variant='h6'>Online Media Partner</Typography>
+        </div> */}
+       </div>
+       <div className={classes.fulldiv3}>
+         <div className={classes.imgdiv}>
+          <img alt="mediaPartner" src={realEstatePartner} className={classes.img}></img>
+          {/* <Typography variant='h6'>Media Partner</Typography> */}
+         </div>
+       </div>
+      </div>
+
+      <div className={classes.outerdiv}>
+        <Typography variant='h5' className={classes.partnerName}>Media Partners</Typography>
+       <div className={classes.fulldiv2}  >
+        <div className={classes.imgdiv}>
+          <img alt="mediaPartner" src={mediaPartner} className={classes.img}></img>
+          {/* <Typography variant='h6'>Media Partner</Typography> */}
         </div>
         <div className={classes.imgdiv}>
           <img alt="newsPartner" src={newsPartner} className={classes.img}></img>
-          <Typography variant='h6'>News Partner</Typography>
+          {/* <Typography variant='h6'>News Partner</Typography> */}
         </div>
         <div className={classes.imgdiv}>
           <a href="https://collegedunia.com/" target="_blank" rel="noreferrer" style={{
@@ -86,31 +158,51 @@ function Contact() {
           }}>
            <img alt="onlineMediaPartner" src={onlineMediaPartner} className={classes.img}></img>
           </a>
-          <Typography variant='h6'>Online Media Partner</Typography>
+          {/* <Typography variant='h6'>Online Media Partner</Typography> */}
         </div>
+       </div>
+       <div className={classes.fulldiv3}>
+         <div className={classes.imgdiv}>
+          <img alt="mediaPartner" src={publicityPartner} className={classes.img}></img>
+          {/* <Typography variant='h6'>Media Partner</Typography> */}
+         </div>
+         <div className={classes.imgdiv}>
+          <img alt="mediaPartner" src={pagalguy} className={classes.img}></img>
+          {/* <Typography variant='h6'>Media Partner</Typography> */}
+         </div>
+       </div>
+       
       </div>
 
-      <div className={classes.fulldiv}>
+      <div className={classes.outerdiv}>
+        <Typography variant='h5' className={classes.partnerName}>WorkShop Partners</Typography>
+       <div className={classes.fulldiv2}  >
         <div className={classes.imgdiv}>
-          <img alt="publicityPartner" src={publicityPartner} className={classes.img}></img>
-          <Typography variant='h6'>Publicity Partner</Typography>
+          <a href="https://digitalmedha.com/" target="_blank" rel="noreferrer" style={{
+            display:'flex',
+            justifyContent:'center',
+            alignItems:'center'
+          }}>
+          <img alt="mediaPartner" src={workshopPartner} className={classes.img}></img>
+          </a>
+          {/* <Typography variant='h6'>Media Partner</Typography> */}
         </div>
         <div className={classes.imgdiv}>
-          <img alt="radioPartner" src={radioPartner} className={classes.img}></img>
-          <Typography variant='h6'>Radio Partner</Typography>
+          <a href="https://www.innovatorsandyou.com/innovator/index.php" target="_blank" rel="noreferrer" style={{
+            display:'flex',
+            justifyContent:'center',
+            alignItems:'center'
+          }}>
+           <img alt="onlineMediaPartner" src={innovators} className={classes.img}></img>
+          </a>
+          {/* <Typography variant='h6'>Online Media Partner</Typography> */}
         </div>
-        <div className={classes.imgdiv}>
-          <img alt="realEstatePartner" src={realEstatePartner} className={classes.img}></img>
-          <Typography variant='h6'>Real Estate Partner</Typography>
-        </div>
+       </div>
+       
       </div>
 
-      <div className={classes.fulldiv}>
-        <div className={classes.imgdiv}>
-          <img alt="workshopPartner" src={workshopPartner} className={classes.img}></img>
-          <Typography variant='h6'>WorkShop Partner</Typography>
-        </div>
-      </div>
+
+
     </div>
   );
 }
