@@ -2,7 +2,7 @@ import { useStyles } from "./style";
 import { Typography } from "@material-ui/core";
 import "./style.css";
 
-import bankingSponsor from '../../resources/Partners/bankingSponsor.png'
+import bankingSponsor from '../../resources/Partners/bankingSponsor.jpg'
 import couponPartner from '../../resources/Partners/couponPartner.png'
 import creditCardPartner from '../../resources/Partners/creditCardPartners.png'
 import educationPartner from '../../resources/Partners/educationPartner.png'
