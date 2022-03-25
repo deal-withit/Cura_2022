@@ -19,6 +19,7 @@ import talerang from '../../resources/Partners/talerang.png'
 import pagalguy from '../../resources/Partners/pagalguy.png'
 import innovators from '../../resources/Partners/innovators.png'
 import finlatics from '../../resources/Partners/finlatics.png'
+import nitalumni from '../../resources/Partners/nitalumni.jpeg'
 function Contact() {
   const classes = useStyles();
   return (
@@ -133,7 +134,11 @@ function Contact() {
        </div>
        <div className={classes.fulldiv3}>
          <div className={classes.imgdiv}>
-          <img alt="mediaPartner" src={realEstatePartner} className={classes.img}></img>
+          <img alt="eventPartner" src={realEstatePartner} className={classes.img}></img>
+          {/* <Typography variant='h6'>Media Partner</Typography> */}
+         </div>
+         <div className={classes.imgdiv}>
+          <img alt="eventPartner" src={nitalumni} className={classes.img}></img>
           {/* <Typography variant='h6'>Media Partner</Typography> */}
          </div>
        </div>
