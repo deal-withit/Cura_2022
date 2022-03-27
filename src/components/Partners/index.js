@@ -40,7 +40,7 @@ function Contact() {
           <Typography variant='h6'>Alumni Partner</Typography>
         </div>
         <div className={classes.imgdiv}>
-        <a href="https://www.onlinesbi.com/" target="_blank" rel="noreferrer" style={{
+        <a href="https://www.iobnet.co.in/ibanking/html/index.html" target="_blank" rel="noreferrer" style={{
             display:'flex',
             justifyContent:'center',
             alignItems:'center'

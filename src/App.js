@@ -8,8 +8,8 @@ import Competitions from "./components/Competitions";
 import Speakers from "./components/Speakers";
 import Workshops from "./components/Workshops";
 import Teams from "./components/Teams";
-import Testimonials from "./components/Testimonials";
 import Partners from "./components/Partners";
+import Result from "./components/Result"
 function App() {
     return (
         <Router>
@@ -24,7 +24,7 @@ function App() {
                 <Route path="/competitions" element={<Competitions />} />
                 <Route path="/partners" element={<Partners />} />
                 <Route path="/teams" element={<Teams />} />
-                <Route path="/Testimonials" element={<Testimonials />} />
+                <Route path="/result" element={<Result/>} />
             </Routes>
             <Footer />
         </Router>
